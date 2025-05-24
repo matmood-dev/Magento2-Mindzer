@@ -1,0 +1,16 @@
+/vendor/
+/generated/
+/var/
+/pub/static/
+/pub/media/
+/node_modules/
+*.log
+*.zip
+*.gz
+.env
+.env.*
+docker-compose.override.yml
+auth.json
+.phpunit.result.cache
+.idea/
+/composer.lock
