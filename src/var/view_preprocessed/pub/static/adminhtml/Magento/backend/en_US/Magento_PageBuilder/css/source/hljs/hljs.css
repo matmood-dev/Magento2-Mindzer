@@ -1,0 +1,59 @@
+.hljs {
+  background: #282a36;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-link {
+  color: #8be9fd;
+}
+.hljs-keyword {
+  color: #ff79c6;
+}
+.hljs,
+.hljs-subst {
+  color: #f8f8f2;
+}
+.hljs-title {
+  color: #50fa7b;
+}
+.hljs-string,
+.hljs-meta,
+.hljs-name,
+.hljs-type,
+.hljs-attr,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #f1fa8c;
+}
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
+  color: #6272a4;
+}
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+.hljs-literal,
+.hljs-number {
+  color: #bd93f9;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22%5C%2Fstatic%5C%2Fadminhtml%5C%2FMagento%5C%2Fbackend%5C%2Fen_US%5C%2FMagento_PageBuilder%5C%2Fcss%5C%2Fsource%5C%2Fhljs%5C%2Fhljs.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22AAcA%3BEACI%2CmBAAA%3BEACA%2CcAAA%3BEACA%2CgBAAA%3BEACA%2CcAAA%3B%3BAAGJ%3BAACA%3BAACA%3BAACA%3BEACI%2CcAAA%3B%3BAAGJ%3BEACI%2CcAAA%3B%3BAAGJ%3BAACA%3BEACI%2CcAAA%3B%3BAAGJ%3BEACI%2CcAAA%3B%3BAAGJ%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BEACI%2CcAAA%3B%3BAAGJ%3BAACA%3BAACA%3BEACI%2CcAAA%3B%3BAAGJ%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BAACA%3BEACI%2CiBAAA%3B%3BAAGJ%3BAACA%3BEACI%2CcAAA%3B%3BAAGJ%3BEACI%2CkBAAA%22%7D */

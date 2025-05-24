@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+        <!-- Remove Related Products from default position -->
+        <referenceBlock name="catalog.product.related" remove="true"/>
+
+        <!-- Add Related Products as a new tab (last in the list) -->
+        <referenceBlock name="product.info.details">
+            <block class="Magento\Catalog\Block\Product\ProductList\Related"
+                   name="custom.related.tab"
+                   as="custom.related.tab"
+                   template="Magento_Catalog::product/view/tabs/related.phtml"
+                   group="detailed_info"
+                   after="reviews.tab">
+                <arguments>
+                    <argument name="title" xsi:type="string" translate="true">Related Products</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+    </body>
+</page>
+

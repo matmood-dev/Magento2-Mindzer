@@ -1,0 +1,171 @@
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+@import url("https://use.typekit.net/onr8tbr.css");
+@media (prefers-color-scheme: dark) {
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  a,
+  a:visited {
+    color: #1473e6;
+    text-decoration: none;
+  }
+  .legal a {
+    text-decoration: underline;
+  }
+  /* iOS BLUE LINKS */
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  u ~ div {
+    min-width: 100vw;
+  }
+  div > u ~ div {
+    min-width: 100%;
+  }
+  .email-width,
+  .email-width-400 {
+    width: 84% !important;
+  }
+  .full-width {
+    width: 100% !important;
+  }
+}
+.full-width {
+  width: 600px;
+}
+.email-width {
+  width: 500px;
+}
+.email-width-400 {
+  width: 400px;
+}
+.width-100 {
+  width: 100%;
+}
+.background-grey {
+  background-color: #e4e4e4;
+}
+.background-light {
+  background-color: #f5f5f5;
+}
+.padding-top-0 {
+  padding-top: 0 !important;
+}
+.padding-top-25 {
+  padding-top: 25px;
+}
+.padding-top-40 {
+  padding-top: 40px;
+}
+.padding-top-50 {
+  padding-top: 40px;
+}
+.email-body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  background-color: #e4e4e4;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.email-preview {
+  color: #e4e4e4;
+  display: none;
+  font-size: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.email-header-container {
+  background-color: #fff;
+  border-top: 4px solid #eb1000;
+  padding-bottom: 60px;
+}
+.email-logo {
+  color: #eb1000;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+}
+.email-logo img {
+  color: #eb1000;
+  display: block;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  height: 50px;
+  line-height: 18px;
+  vertical-align: top;
+}
+.email-footer-legal {
+  color: #959595;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 60px;
+}
+.email-footer-legal a {
+  color: #959595;
+  text-decoration: underline;
+}
+.email-footer-copyright {
+  color: #959595;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.email-subject {
+  color: #000;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 23px;
+  line-height: 30px;
+  padding-top: 50px;
+}
+.email-text {
+  color: #2c2c2c;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 25px;
+}
+.cta-button-container {
+  color: #1473e6;
+  font-family: adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.cta-button {
+  -webkit-text-size-adjust: none;
+  background-color: #1473e6;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+.cta-button-mso {
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+}
+.email-information-link {
+  color: #1473e6;
+  text-decoration: none;
+}
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22%5C%2Fstatic%5C%2Fadminhtml%5C%2FMagento%5C%2Fbackend%5C%2Fen_US%5C%2FMagento_AdminAdobeIms%5C%2Fcss%5C%2Fadobe_email.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22%3B%3B%3B%3BYAcY%3BAA4BZ%2CQA3BoC%3BEAChC%3BIACI%2CyBAAA%3BIACA%2CcAAA%3B%3BEAGJ%3BEACA%2CCAAC%3BIACG%2CcAAA%3BIACA%2CqBAAA%3B%3BEAGJ%2CMAAO%3BIACH%2C0BAAA%3B%3B%3BEAIJ%2CCAAC%3BIACG%2CyBAAA%3BIACA%2C%2BBAAA%3BIACA%2C6BAAA%3BIACA%2C%2BBAAA%3BIACA%2C%2BBAAA%3BIACA%2CgCAAA%3B%3B%3BAAsBR%2CwBAlByC%3BEACrC%2CCAAI%3BIACA%2CgBAAA%3B%3BEAEJ%2CGAAM%2CIAAI%3BIACN%2CeAAA%3B%3BEAGJ%3BEACA%3BIACI%2CqBAAA%3B%3BEAGJ%3BIACI%2CsBAAA%3B%3B%3BAAIR%3BEACI%2CYAAA%3B%3BAAGJ%3BEACI%2CYAAA%3B%3BAAGJ%3BEACI%2CYAAA%3B%3BAAGJ%3BEACI%2CWAAA%3B%3BAAGJ%3BEACI%2CyBAAA%3B%3BAAGJ%3BEACI%2CyBAAA%3B%3BAAGJ%3BEACI%2CyBAAA%3B%3BAAGJ%3BEACI%2CiBAAA%3B%3BAAGJ%3BEACI%2CiBAAA%3B%3BAAGJ%3BEACI%2CiBAAA%3B%3BAAGJ%3BEACI%2CmCAAA%3BEACA%2C8BAAA%3BEACA%2CyBAAA%3BEACA%2CSAAA%3BEACA%2CUAAA%3BEACA%2CsBAAA%3B%3BAAGJ%3BEACI%2CcAAA%3BEACA%2CaAAA%3BEACA%2CcAAA%3BEACA%2CgBAAA%3BEACA%2CkBAAA%3B%3BAAGJ%3BEACI%2CsBAAA%3BEACA%2C6BAAA%3BEACA%2CoBAAA%3B%3BAAGJ%3BEACI%2CcAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3B%3BAAJJ%2CWAMI%3BEACI%2CcAAA%3BEACA%2CcAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CYAAA%3BEACA%2CiBAAA%3BEACA%2CmBAAA%3B%3BAAIR%3BEACI%2CcAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CiBAAA%3B%3BAALJ%2CmBAOI%3BEACI%2CcAAA%3BEACA%2C0BAAA%3B%3BAAIR%3BEACI%2CcAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CoBAAA%3BEACA%2CiBAAA%3B%3BAAGJ%3BEACI%2CWAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CiBAAA%3B%3BAAGJ%3BEACI%2CcAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CiBAAA%3B%3BAAGJ%3BEACI%2CcAAA%3BEACA%2C%2BEAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CoBAAA%3BEACA%2CiBAAA%3B%3BAAGJ%3BEACI%2C8BAAA%3BEACA%2CyBAAA%3BEACA%2CmBAAA%3BEACA%2CWAAA%3BEACA%2CqBAAA%3BEACA%2CeAAA%3BEACA%2CiBAAA%3BEACA%2CkBAAA%3BEACA%2CqBAAA%3BEACA%2CYAAA%3B%3BAAGJ%3BEACI%2CYAAA%3BEACA%2CcAAA%3BEACA%2CSAAA%3B%3BAAGJ%3BEACI%2CcAAA%3BEACA%2CqBAAA%22%7D */
